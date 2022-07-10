@@ -1,0 +1,29 @@
+body,
+html {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.swiper {
+  width: 70vw;
+  height: 85vh;
+  margin: 50px auto;
+  border-radius: 20px;
+  box-shadow: 0 0 39px 13px rgba(0,0,0,0.5);
+}
+
+.swiper-slide {
+  background: #f1f1f1;
+  color: #000;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.swiper-slide>div {
+  width: 50vw;
+  text-align: center;
+}

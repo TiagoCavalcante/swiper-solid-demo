@@ -1,0 +1,26 @@
+{
+  "name": "swiper-solid-demo",
+  "version": "1.0.0",
+  "description": "Reactive Swiper demo in SolidJS",
+  "source": "src/index.html",
+  "scripts": {
+    "build": "parcel build",
+    "deploy": "gh-pages -d build",
+    "start": "parcel"
+  },
+  "author": "Tiago Cavalcante Trindade <tiagotridade111@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "solid-js": "^1.4.6",
+    "swiper": "^8.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.6",
+    "@parcel/transformer-inline-string": "^2.6.2",
+    "babel-preset-solid": "^1.4.6",
+    "buffer": "^6.0.3",
+    "gh-pages": "^4.0.0",
+    "parcel": "^2.6.2",
+    "process": "^0.11.10"
+  }
+}
