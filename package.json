@@ -4,8 +4,8 @@
   "description": "Reactive Swiper demo in SolidJS",
   "source": "src/index.html",
   "scripts": {
-    "build": "parcel build",
-    "deploy": "gh-pages -d build",
+    "build": "parcel build --public-url ./",
+    "deploy": "gh-pages -d dist",
     "start": "parcel"
   },
   "author": "Tiago Cavalcante Trindade <tiagotridade111@gmail.com>",

@@ -2,7 +2,7 @@ import { render } from "solid-js/web";
 
 import "swiper/swiper-bundle.css";
 import { Navigation, Pagination } from "swiper";
-import { Swiper, SwiperSlide } from "swiper/solid";
+import { Swiper, SwiperSlide } from "swiper/solid/swiper-solid";
 
 const App = () => (
   <Swiper
