@@ -12,7 +12,7 @@ const App = () => (
     pagination
   >
     <SwiperSlide>
-      Porting a React library to SolidJS
+      <h1>Porting a React library to SolidJS</h1>
     </SwiperSlide>
     <SwiperSlide>
       Step 1. Replace all imports from React to SolidJS
